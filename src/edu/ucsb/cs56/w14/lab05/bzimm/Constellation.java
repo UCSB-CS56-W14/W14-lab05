@@ -102,4 +102,10 @@ public class Constellation {
 
     }
 
+
+    public static void main(String[] args) {
+	Constellation c = new Constellation("Orion","the Hunter","NQ1",7);
+	System.out.println(c);
+    }
+
 }
