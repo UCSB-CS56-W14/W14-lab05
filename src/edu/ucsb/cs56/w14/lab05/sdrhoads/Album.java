@@ -1,7 +1,7 @@
 package edu.ucsb.cs56.w14.lab05.sdrhoads;
 
-/** <p>Class Album<p>
-	Represents a Full-length Vinyl Record. An Album has a name of type String, albumName, and a unique album identification number, albumID. Note: albumID is type String because it mimics a serial-style number where leading zeros may be significant.  
+/** 
+	Class Album represents a Full-length Vinyl Record. An Album has a name of type String, albumName, and a unique album identification number, albumID.<br> Note: albumID is type String because it mimics a serial-style number where leading zeros may be significant.  
     @author P. Conrad
     @author Tom Craig, Sidney Rhoads
     @version UCSB, CS56, W14
@@ -60,7 +60,7 @@ public class Album
 
 
     /** hashcode to be used for hash tables, etc.
-	based only on the albumID value.
+	based only on the albumID value
 	@return hashCode of the albumID
      */
 
@@ -97,8 +97,7 @@ public class Album
     	}
         return false;
     }
-    /** main for class Album
-    Instantiates and then prints an Album a
+    /** instantiates and then prints an Album a
 	@return void
      */
     public static void main(String [] args)
