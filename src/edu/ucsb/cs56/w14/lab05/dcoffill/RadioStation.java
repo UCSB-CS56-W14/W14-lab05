@@ -2,6 +2,12 @@ package edu.ucsb.cs56.w14.lab05.dcoffill;
 
 public class RadioStation {
 
+	public static void main(String[] args) {
+		RadioStation kcsb = new RadioStation(69081, "KCSB-FM");
+		System.out.println("r=" + kcsb);
+	}
+
+
     private int facilityID; // Unique ID assigned by FCC for a particular station
     // note: int because leading zeroes don't seem to appear in FCC Facility IDs
 
