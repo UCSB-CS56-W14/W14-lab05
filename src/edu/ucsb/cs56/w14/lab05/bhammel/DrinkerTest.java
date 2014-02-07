@@ -1,4 +1,4 @@
-package edu.ucsb.cs56.W14.lab05.bhammel;
+package edu.ucsb.cs56.w14.lab05.bhammel;
 
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;

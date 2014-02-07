@@ -1,4 +1,4 @@
-package edu.ucsb.cs56.W14.lab05.bhammel;
+package edu.ucsb.cs56.w14.lab05.bhammel;
 
 public class Drinker {
 
@@ -71,5 +71,10 @@ public class Drinker {
             return false;
 	   Drinker d = (Drinker) o;
 	   return (d.getSSN() == this.getSSN());
+    }
+
+    public static void main(String[] args) {
+	Drinker Bartholomew = new Drinker(0.12, 111223333);
+	System.out.println(Bartholomew);
     }
 }
