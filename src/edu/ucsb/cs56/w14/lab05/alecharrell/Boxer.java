@@ -68,4 +68,10 @@ public class Boxer {
         return (b.getSSN() == this.getSSN());
     }
 
+
+    public static void main(String [] args) {
+	Boxer b = new Boxer(123456789, "Ali");
+	System.out.println("b="+b);
+    }
+
 }
