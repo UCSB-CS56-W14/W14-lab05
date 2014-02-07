@@ -73,6 +73,9 @@ public class Book {
         
     }
 
+    /**
+       uses overridden toString method to print a sample Book object in the format [title,author]
+     */
     public static void main(String[] args){
 	Book p = new Book("sample title","sample author");
 	System.out.println(p);
