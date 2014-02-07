@@ -61,4 +61,11 @@ public class Car {
 	return(c.getVin() == this.getVin());
     }
 
+    public static void main(String [] args) {
+	Car c = new Car("1GNCS18Z30115561", "Nissan Altima");
+	System.out.println(c);
+    }
+
 }
+
+
