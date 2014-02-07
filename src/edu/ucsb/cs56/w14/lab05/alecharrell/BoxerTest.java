@@ -21,7 +21,7 @@ import static org.junit.Assert.assertFalse;
 
 public class BoxerTest {
 
-    /** Test case for getSSN method of Cereal
+    /** Test case for getSSN method of Boxer
      @see Boxer#getSSN
     */
 
