@@ -99,4 +99,13 @@ public class Album
         return false;
     }
 
+    /** main function
+    */
+
+    public static void main(String[] args)
+    {
+        Album darkSideOfTheMoon = new Album("548230457", "Dark Side of the Moon");
+        System.out.println(darkSideOfTheMoon);
+    }
+
 }
