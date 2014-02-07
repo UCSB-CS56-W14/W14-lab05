@@ -5,7 +5,7 @@ package edu.ucsb.cs56.w14.lab05.zhansaya19;
   
    @author P. Conrad
    @author Zhansaya Abdikarimova
-   @version UCSB, CS56, W14, lab04
+   @version UCSB, CS56, W14, lab05
 */
 
 public class Country {
@@ -87,6 +87,11 @@ public class Country {
 	// OR: return true;
 	// Note: there is not good "always wrong" stub value for a boolean method
 	//   It will be "correct" half the time by accident.
+    }
+
+    public static void main(String [] args){
+	Country c = new Country("France","Paris");
+	System.out.println("c="+c);
     }
 
 }
