@@ -69,6 +69,8 @@ public class Hat {
 
 	return true;
     }
+
+    /**creates a hat object and prints its serial number and brand as a string*/
     
     public static void main(String args[]) {
 	Hat h= new Hat("23232322","Warriors");
