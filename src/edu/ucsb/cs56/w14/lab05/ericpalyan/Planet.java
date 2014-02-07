@@ -80,4 +80,9 @@ else return false;
 // It will be "correct" half the time by accident.
     }
 
+    public static void main(String[] args) {
+	Planet p = new Planet("Jupiter", 1.9e27);
+	System.out.println(p);
+    }
+
 }
