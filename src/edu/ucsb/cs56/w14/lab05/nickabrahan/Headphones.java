@@ -89,5 +89,11 @@ public class Headphones {
 
     }
 
+    public static void main(String[] args){
+	Headphones x = new Headphones("923123", "Logitech");
+	System.out.println("newItem = " + x);
+    }
+
+
 }
 
