@@ -75,5 +75,9 @@ public class TvShow {
 	// Note: there is not good "always wrong" stub value for a boolean method
 	//   It will be "correct" half the time by accident.
     }
-
+    
+    public static void main(String [] args){
+	TvShow t = new TvShow("How I Met Your Mother", "CBS");
+	System.out.println(t);
+	    }
 }
