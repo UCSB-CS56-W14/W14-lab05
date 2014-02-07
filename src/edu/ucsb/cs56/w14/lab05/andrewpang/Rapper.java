@@ -65,4 +65,9 @@ public class Rapper {
         return (c.getRealName() == this.getRealName());
     }
 
+    public static void main (String[] args){
+	Rapper rapper = new Rapper("Childish Gambino", "Donald Glover");
+	System.out.println(rapper.toString());
+    }
+
 }
