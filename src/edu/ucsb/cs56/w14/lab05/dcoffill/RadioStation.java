@@ -67,7 +67,7 @@ public class RadioStation {
     }
 
     /** compare for equality based on facilityID
-	@return true if parameter is a Cereal with same facilityID, otherwise false
+	@return true if parameter is a RadioStation with same facilityID, otherwise false
      */
 
     @Override

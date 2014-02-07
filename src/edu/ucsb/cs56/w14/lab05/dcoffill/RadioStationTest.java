@@ -49,7 +49,7 @@ public class RadioStationTest {
     }
 
     /** Test case 1 for .equals
-     @see RadioStation#toString
+     @see RadioStation#equals
     */
 
     @Test
@@ -60,7 +60,7 @@ public class RadioStationTest {
     }
 
     /** Test case 2 for .equals
-     @see RadioStation#toString
+     @see RadioStation#equals
     */
 
     @Test
