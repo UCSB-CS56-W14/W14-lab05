@@ -102,6 +102,8 @@ public class Constellation {
 
     }
 
+    /** main method that instantiates a Constellation object and prints it to invoke the toString method
+     */
 
     public static void main(String[] args) {
 	Constellation c = new Constellation("Orion","the Hunter","NQ1",7);
