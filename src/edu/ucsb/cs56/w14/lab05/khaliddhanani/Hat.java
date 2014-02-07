@@ -70,4 +70,9 @@ public class Hat {
 	return true;
     }
 
+    public static void main(String[] args) {
+        Hat h = new Hat("00127288","UNDFTD");
+        System.out.println(h);
+    }
+
 }
