@@ -1,3 +1,5 @@
+package edu.ucsb.cs56.w14.lab05.maxsorenson;
+
 public class Planet {
     private String name; // Name: identity of the planet, e.g. "Earth"
     // note: String because... well its a name (composed of characters(letters) )
@@ -77,5 +79,12 @@ else return false;
 // Note: there is not good "always wrong" stub value for a boolean method
 // It will be "correct" half the time by accident.
     }
+
+    public static void main (String[] args) {
+	Planet p = new Planet("Jupiter",1.89e27);
+	System.out.println(p);
+	
+    }
+
 
 }
