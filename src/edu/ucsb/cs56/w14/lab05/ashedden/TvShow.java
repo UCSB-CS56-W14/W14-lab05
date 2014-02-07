@@ -38,8 +38,7 @@ public class TvShow {
 
     @Override
     public String toString() {
-	return("[" + title + "," + network + "]"); // in stub, return super class (as if not overridden)
-	// OR: return "[STUB]";     
+	return("[" + title + "," + network + "]");     
     }
 
 
@@ -49,9 +48,7 @@ public class TvShow {
 
     @Override
     public int hashCode() {
-        // in stub, return super class (as if not overridden)
-	// OR: return 42; // WORST POSSIBLE HASH CODE IN PRACTICE; ok for testing tests
-	int hash = 7;
+        int hash = 7;
 	hash = 117 * hash + this.title.hashCode();
 	return hash;
     }
@@ -69,11 +66,6 @@ public class TvShow {
 
 	if(this.title == other.title){return true;}
 	return false;
-	// as if not overridden
-	// OR: return false;
-	// OR: return true;
-	// Note: there is not good "always wrong" stub value for a boolean method
-	//   It will be "correct" half the time by accident.
     }
     
     public static void main(String [] args){
