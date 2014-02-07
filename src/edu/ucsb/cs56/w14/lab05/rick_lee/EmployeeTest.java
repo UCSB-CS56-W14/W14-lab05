@@ -1,4 +1,4 @@
-package edu.ucsb.cs56.w14.lab05.rick-lee;
+package edu.ucsb.cs56.w14.lab05.rick_lee;
 
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;

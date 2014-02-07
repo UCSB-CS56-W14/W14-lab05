@@ -1,4 +1,4 @@
-package edu.ucsb.cs56.w14.lab05.rick-lee;
+package edu.ucsb.cs56.w14.lab05.rick_lee;
 
 public class Employee {
 
