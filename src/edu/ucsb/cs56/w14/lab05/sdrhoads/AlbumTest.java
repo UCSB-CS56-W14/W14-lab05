@@ -5,10 +5,6 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.assertFalse;
 
-// @@@ TODO: Change the items below per instructions.
-// @@@ TODO: Don't forget to change the "see" comment to refer to your class
-// @@@ TODO: Then delete these @@@ TODO lines.
-
 /** Test class for Album
 
     @author Phill Conrad
