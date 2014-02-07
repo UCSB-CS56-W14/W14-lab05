@@ -64,4 +64,9 @@ public class SoccerPlayer {
         SoccerPlayer s = (SoccerPlayer) o;
         return (this.jerseyNum == s.jerseyNum);
     }
+    
+    public static void main(String [] args) {
+    	SoccerPlayer s = new SoccerPlayer(23, "David Beckham");
+    	System.out.println("Player: " + s);
+    }
 }
