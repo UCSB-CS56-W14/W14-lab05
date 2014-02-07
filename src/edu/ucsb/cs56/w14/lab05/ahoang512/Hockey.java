@@ -1,4 +1,4 @@
-package edu. ucsb. cs56. w14. lab05. ahoang512;
+package edu.ucsb.cs56.w14.lab05.ahoang512;
 
 public class Hockey {
     private String ZipCode; // Home zipcode where team plays.
@@ -71,6 +71,12 @@ public class Hockey {
 	// OR: return true;
 	// Note: there is not good "always wrong" stub value for a boolean method
 	//   It will be "correct" half the time by accident.
+    }
+
+    public static void main(String [] args){
+	Hockey SjSharks= new Hockey("94085", "Sharks");
+	System.out.println("SjSharks= " + SjSharks.toString());
+	return;
     }
 
 }

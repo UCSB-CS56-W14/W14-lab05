@@ -1,4 +1,4 @@
-package edu. ucsb. cs56. w14. lab05. ahoang512;
+package edu.ucsb.cs56.w14.lab05.ahoang512;
 
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
