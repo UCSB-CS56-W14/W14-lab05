@@ -72,4 +72,10 @@ public class Inmate {
 	return true;
     }
 
+    //main
+    public static void main(String[] args){
+	Inmate inm = new Inmate("Mike Hunt", 0);
+	System.out.println(inm);
+    }
+
 }
