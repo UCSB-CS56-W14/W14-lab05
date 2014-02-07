@@ -1,33 +1,33 @@
-package edu.ucsb.cs56.w14.lab05.Nazgugu;
+public class Computer{
+    private String serialNum; // serial number associated with each computer, e.g. KJHM55667
+    // note: String because it contains letters and numbers
 
-public class Cereal {
-    private String upc; // UPC: numbers under the bar code, e.g. 00127288
-    // note: String because leading zeros may be significant
-
-    private String name; // name of the cereal, e.g "Trader Joe's Raisin Bran"
+    private String brand; //the brand of the computer
     
     /**
        Two-arg constructor
-       @param upc  numbers under the bar code, e.g. 00127288
-       @param name name of the cereal, e.g "Trader Joe's Raisin Bran"
+       @param serialNum the unique id for every computer, e.g. KJHM55667
+       @param  brand the brand of computer eg: "Apple"
     */
 
-    public Cereal(String upc, String name) {
-	this.upc = upc; this.name=name;
+    public Computer(String serialNum, String brand) {
+      // @@@ STUB so do nothing
+	this.serialNum = serialNum;
+	this.brand = brand;
     }
 
     /** 
-	Getter for upc
-	@return upc, numbers under the bar code, e.g. 00127288
+	Getter for serialNum
+	@return serialNum, the unique id for every computer, e.g. KJHM55667
     */
 
-    public String getUpc () { return this.upc; }
+    public String getSerialNum () { return serialNum; }
 
     /** 
-	Getter for name
-	@return name of the cereal, e.g "Trader Joe's Raisin Bran"
+	Getter for brand
+	@return brand of the computer, e.g "Apple"
     */
-    public String getName () {return this.name; }
+    public String getBrand () {return brand; }
 
     /**
        convert to String representation in format [upc,name]
@@ -38,7 +38,7 @@ public class Cereal {
 
     @Override
     public String toString() {
-	return "[" + getUpc() + "," + getName() + "]";
+	return "[" + this.serialNum + "," + this.brand + "]";     
     }
 
 
@@ -48,32 +48,7 @@ public class Cereal {
 
     @Override
     public int hashCode() {
-	/* NOTE: we could have just used 
-	   return upc.hashcode() but the code below is 
-	   an example of what to do if you need to combine
-	   multiple fields into a hashcode.
-
-	   See also: http://stackoverflow.com/questions/16377926/how-to-write-hashcode-method-for-a-particular-class
-
-	*/
-	final int prime = 31; /* could use any prime number */
-        int result = 1;
-        result = (prime * result) + this.upc.hashCode();
-
-	/* If you had more fields to add to the hashcode,
-	   have more lines like the ones shown below.
-	   If the objects already have hashcode methods,
-	   use their hashcode--if they are int variables,
-	   just use the int value. 
-
-        result = prime * result + object1.hashcode();
-        result = prime * result + object2.hashcode();
-        result = prime * result + intVariable3;
-        result = prime * result + intVariable4;
-	*/
-
-       
-        return result;
+        return Integer.parseInt(this.serialNum);
     }
 
     /** compare for equality based on upc
@@ -82,10 +57,10 @@ public class Cereal {
 
     @Override
     public boolean equals(Object o) {
-	if (o==null) return false;
-	if (! (o instanceof Cereal) ) return false;
-	Cereal c = (Cereal) o;
-	return (c.getUpc() == this.getUpc());
+       if (! (o instanceof Computer))
+		return false;
+	Computer temp = (Computer)o;
+	return (temp.getSerialNum().equals(this.getSerialNum()) & temp.getBrand().equals(this.getBrand()));
     }
 
 }
