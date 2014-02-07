@@ -1,5 +1,17 @@
 package edu.ucsb.cs56.w14.lab05.katfom;
 
+
+/** Class for SoccerPlayer
+
+    @author Phill Conrad
+    @author Deanna Hartsook
+    @author Kateryna Fomenko
+    @version 2014/02/6 for lab05, cs56, W14
+    @see SoccerPlayer 
+
+*/
+
+
 public class SoccerPlayer {
     private int jerseyNum; // Player's jersey number
 
