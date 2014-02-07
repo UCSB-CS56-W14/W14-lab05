@@ -76,6 +76,9 @@ public class TvShow {
 	//   It will be "correct" half the time by accident.
     }
 
-    
+    public static void main(String[] args){
+	TvShow temp = new TvShow("Breaking Bad","AMC");
+	System.out.println(temp);
+    }
 
 }
