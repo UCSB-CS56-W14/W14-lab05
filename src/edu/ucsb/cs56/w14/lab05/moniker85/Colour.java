@@ -71,4 +71,9 @@ public class Colour {
 	else
 	    return false;
     }
+
+    public static void main(String [] args) {
+	Colour red = new Colour("255000000","Red");
+	System.out.println("red=" + red);
+    }
 }
