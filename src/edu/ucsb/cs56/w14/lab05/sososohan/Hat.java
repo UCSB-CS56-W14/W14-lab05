@@ -69,5 +69,10 @@ public class Hat {
 
 	return true;
     }
-
+    
+    public static void main(String args[]) {
+	Hat h= new Hat("23232322","Warriors");
+	String s= h.toString();
+	System.out.println(s);
+    }
 }
