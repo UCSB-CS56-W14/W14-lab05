@@ -98,5 +98,12 @@ public class Album
     	}
         return false;
     }
+    
+    public static void main(String [] args)
+    {
+    	Album a = new Album("12345", "Boston");
+    	
+    	System.out.println(a);
+    }
 
 }
