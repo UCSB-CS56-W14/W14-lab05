@@ -1,4 +1,4 @@
-package edu.ucsb.cs56.W14.lab05.xgmak94;
+package edu.ucsb.cs56.w14.lab05.xgmak94;
 
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;

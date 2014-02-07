@@ -1,4 +1,4 @@
-package edu.ucsb.cs56.W14.lab05.xgmak94;
+package edu.ucsb.cs56.w14.lab05.xgmak94;
 
 public class Drinker {
 
@@ -72,4 +72,11 @@ public class Drinker {
 	   Drinker d = (Drinker) o;
 	   return (d.getSSN() == this.getSSN());
     }
+
+    public static void main(String [] args){
+	Drinker Bob = new Drinker(.01, 123456789);
+	System.out.println(Bob);
+    }
+
+
 }
