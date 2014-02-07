@@ -96,4 +96,9 @@ public class Employee {
 	return (this.getSSN() == e.getSSN());
     }
 
+    public static void main(String[] args){
+	Employee e = new Employee("Foo Bar","Foo Inc","Manager",123456789);
+	System.out.println("e = "+e);
+    }
+
 }
