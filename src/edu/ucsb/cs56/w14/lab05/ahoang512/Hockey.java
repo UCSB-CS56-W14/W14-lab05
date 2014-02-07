@@ -18,7 +18,7 @@ public class Hockey {
 
     /** 
 	Getter for ZipCode
-	@return ZipCode, numbers under the bar code, e.g. 00127288
+	@return ZipCode, zipcode for where team plays. eg. "94085"
     */
 
     public String getZipCode () { return ZipCode; }
