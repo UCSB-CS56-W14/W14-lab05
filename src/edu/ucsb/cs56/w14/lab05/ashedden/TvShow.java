@@ -24,7 +24,7 @@ public class TvShow {
     public String getTitle () { return title; }
 
     /** 
-	Getter for networl
+	Getter for network
 	@return network, where the television program is shown, e.g. BBC
     */
     public String getNetwork () {return network; }
@@ -56,7 +56,7 @@ public class TvShow {
 	return hash;
     }
 
-    /** compare for equality based on upc
+    /** compare for equality based on title
 	@return true if parameter is a TvShow with same title, otherwise false
      */
 
