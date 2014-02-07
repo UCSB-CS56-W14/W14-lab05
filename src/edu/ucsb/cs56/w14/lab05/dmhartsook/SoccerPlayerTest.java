@@ -5,16 +5,12 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.assertFalse;
 
-// @@@ TODO: Change the items below per instructions.
-// @@@ TODO: Don't forget to change the "see" comment to refer to your class
-// @@@ TODO: Then delete these @@@ TODO lines.
-
 /** Test class for SoccerPlayer
 
     @author Phill Conrad
     @author Deanna Hartsook
     @author Kateryna Fomenko
-    @version 2014/02/5 for lab04, cs56, W14
+    @version 2014/02/6 for lab05, cs56, W14
     @see SoccerPlayer 
 
 */
