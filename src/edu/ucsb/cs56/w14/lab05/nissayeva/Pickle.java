@@ -83,5 +83,9 @@ public class Pickle {
 
 	return true;
     }
-
+    
+    public static void main (String[] args) {
+	Pickle p = new Pickle("5410000030","Vlasic","kosher dill");
+	System.out.println("p=" + p.toString());
+    }
 }
