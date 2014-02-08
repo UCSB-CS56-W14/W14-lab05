@@ -3,8 +3,7 @@ package edu.ucsb.cs56.w14.lab05.paranoia1120;
 
     @author Phill Conrad
     @author Yue Xin
-    @author Ziping He
-    @version 2014/02/06 for lab04, cs56, W14
+    @version 2014/02/06 for lab05, cs56, W14
     @see Usps
 
 */
@@ -77,5 +76,11 @@ public class Usps {
 	return true;
        else
         return false;
+    }
+
+
+    public static void main(String [] args){
+	Usps p = new Usps("9405509","Ariel");
+	System.out.println(p.toString());
     }
 }
