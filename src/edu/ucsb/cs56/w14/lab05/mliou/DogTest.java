@@ -5,10 +5,6 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.assertFalse;
 
-// @@@ TODO: Change the items below per instructions.
-// @@@ TODO: Don't forget to change the "see" comment to refer to your class
-// @@@ TODO: Then delete these @@@ TODO lines.
-
 /** Test class for Dog
 
     @author Phill Conrad
@@ -84,7 +80,7 @@ public class DogTest {
     }
 
     /** Test case 1 for .hashCode
-     @see Cereal#hashCode
+     @see Dog#hashCode
     */
 
     @Test
