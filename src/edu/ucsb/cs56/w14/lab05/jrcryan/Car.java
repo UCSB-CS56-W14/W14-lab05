@@ -6,7 +6,7 @@ public class Car {
     /**
        Two-arg constructor
        @param vin series of numbers and letters i.e. "1GNCS18Z30115561"
-       @param make name of the car make and model, i.e. "Nissan Altima"
+       @param makeModel name of the car make and model, i.e. "Nissan Altima"
     */
 
     public Car(String vin, String makeModel) {
