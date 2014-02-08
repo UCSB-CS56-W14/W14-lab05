@@ -12,8 +12,7 @@ import static org.junit.Assert.assertFalse;
 
     @author Phill Conrad
     @author Yue Xin
-    @author Ziping He
-    @version 2014/02/06 for lab04, cs56, W14
+    @version 2014/02/06 for lab05, cs56, W14
     @see Usps 
 
 */
@@ -52,7 +51,7 @@ public class UspsTest {
     }
 
     /** Test case 1 for .equals
-     @see Usps#toString
+     @see Usps#equals
     */
 
     @Test
@@ -63,7 +62,7 @@ public class UspsTest {
     }
 
     /** Test case 2 for .equals
-     @see Usps#toString
+     @see Usps#equals
     */
 
     @Test
