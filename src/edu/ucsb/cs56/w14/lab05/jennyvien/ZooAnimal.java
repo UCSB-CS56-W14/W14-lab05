@@ -8,6 +8,14 @@ package edu.ucsb.cs56.w14.lab05.jennyvien;
 public class ZooAnimal {
     private String name; // name of the zoo animal, e.g "Polar Bear"
     private String ain; //animal identification number, e.g 1234    
+
+
+    public static void main(String [] args) {
+	ZooAnimal z1 = new ZooAnimal("Giraffe","1234567");
+	System.out.println(z1);
+    }
+
+
     /**
        Two-arg constructor
        @param name name of the zoo animal, e.g "Polar Bear"
