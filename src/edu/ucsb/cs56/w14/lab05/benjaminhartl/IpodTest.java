@@ -5,7 +5,7 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.assertFalse;
 
-/** Test class for Cereal
+/** Test class for Ipod
 
     @author Phill Conrad
     @author Sarah Darwiche

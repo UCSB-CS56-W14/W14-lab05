@@ -1,5 +1,7 @@
 package edu.ucsb.cs56.w14.lab05.benjaminhartl;
 
+import java.lang.String;
+import java.lang.Integer;
 public class Ipod {
     private String serialNumber; //unique ID number
     
@@ -13,7 +15,8 @@ public class Ipod {
     */
 
     public Ipod (String sN, String clr) {
-      // @@@ STUB so do nothing
+	serialNumber = sN;
+	color = clr;
     }
 
     /** 
@@ -21,13 +24,13 @@ public class Ipod {
 	@return serialNumber, unique ID number, e.g. 00127288
     */
 
-    public String getserialNumber () { return "STUB"; }
+    public String getserialNumber () { return serialNumber; }
 
     /** 
 	Getter for color
 	@return color of the Ipod, e.g "blue"
     */
-    public String getColor () {return "STUB"; }
+    public String getColor () {return color; }
 
     /**
        convert to String representation in format [serialNumber, color]
@@ -38,8 +41,7 @@ public class Ipod {
 
     @Override
     public String toString() {
-	return super.toString(); // in stub, return super class (as if not overridden)
-	// OR: return "[STUB]";     
+	return "[" + serialNumber + "," + color + "]";
     }
 
 
@@ -49,8 +51,7 @@ public class Ipod {
 
     @Override
     public int hashCode() {
-        return super.hashCode(); // in stub, return super class (as if not overridden)
-	// OR: return 42; // WORST POSSIBLE HASH CODE IN PRACTICE; ok for testing tests
+        return  Integer.parseInt(this.getserialNumber()) % 9999;
     }
 
     /** compare for equality based on serialNumber
@@ -59,11 +60,16 @@ public class Ipod {
 
     @Override
     public boolean equals(Object o) {
-        return super.equals(o); // as if not overridden
-	// OR: return false;
-	// OR: return true;
-	// Note: there is not good "always wrong" stub value for a boolean method
-	//   It will be "correct" half the time by accident.
+	if(this.hashCode() == o.hashCode())
+	    return true;
+	return false;
+    }
+
+    public static void main(String[] args)
+    {
+	Ipod ip = new Ipod("1234567","green");
+	System.out.println(ip.toString());
+
     }
 
 }
