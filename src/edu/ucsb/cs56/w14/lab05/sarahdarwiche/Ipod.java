@@ -2,7 +2,14 @@ package edu.ucsb.cs56.w14.lab05.sarahdarwiche;
 
 import java.lang.Integer;
 public class Ipod {
-    private String serialNumber; //unique ID number
+
+    public static void main(java.lang.String [] args)
+    {
+	Ipod a = new Ipod("123456", "pink");
+        System.out.println( "a = " + a.toString());
+    }
+   
+ private String serialNumber; //unique ID number
     
 
     private String color; //color of the Ipod
@@ -64,4 +71,5 @@ public class Ipod {
 	return false;
     }
 
+   
 }
