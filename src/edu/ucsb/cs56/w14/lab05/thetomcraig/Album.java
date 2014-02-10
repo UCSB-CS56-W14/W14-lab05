@@ -1,12 +1,13 @@
 package edu.ucsb.cs56.w14.lab05.thetomcraig;
 
-/** <p>Album Class</p>
+/**  <p>Album represents a Full-length Vinyl Record. An Album has a name and a unique album identification number</p>
+<p>albumName corresponds to the album's name; for example, "Boston." The albumName does not have to be unique. albumID corresponds to the album's unique identification number; for example, "01234." Note: albumID is type String because it mimics a serial-style number where leading zeros may be significant.</p>
+
 
     @author P. Conrad
     @author Tom Craig, Sidney Rhoads
     @version UCSB, CS56, W14
 */
-
 
 public class Album
 {
@@ -47,7 +48,7 @@ public class Album
     }
 
     /**
-       convert to String representation in format [albumID,ablumName]
+       convert to String representation in format [albumID,albumName]
        e.g. <code>["123456789","Boston"]</code>
 
        @return formatted string, [albumID,albumName]
@@ -63,6 +64,7 @@ public class Album
 
     /** hashcode to be used for hash tables, etc.
 	based only on the albumID value.
+	@return hashCode of albumID
      */
 
     @Override
@@ -99,7 +101,10 @@ public class Album
         return false;
     }
 
-    /** main function
+    /**
+   main function
+   Create an album object with the 2 arg constructor
+   Test the toString function
     */
 
     public static void main(String[] args)
