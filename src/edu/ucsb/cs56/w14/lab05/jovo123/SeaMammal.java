@@ -68,6 +68,8 @@ public class SeaMammal {
 	SeaMammal otter = (SeaMammal) o;
 	return (otter.getTagNumber() == this.getTagNumber());
     }
+    /** main prints an instance of SeaMammal
+     */
 
     public static void main (String[] args) {
 	SeaMammal Josie = new SeaMammal ("6672992", "Harbor Seal");
