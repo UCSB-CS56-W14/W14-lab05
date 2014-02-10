@@ -69,4 +69,8 @@ public class SeaMammal {
 	return (otter.getTagNumber() == this.getTagNumber());
     }
 
+    public static void main (String[] args) {
+	SeaMammal Josie = new SeaMammal ("6672992", "Harbor Seal");
+	System.out.println(Josie.toString());
+    }
 }
