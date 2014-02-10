@@ -1,21 +1,24 @@
 package edu.ucsb.cs56.w14.lab05.sdrhoads;
 
 /** 
-	Class Album represents a Full-length Vinyl Record. An Album has a name of type String, albumName, and a unique album identification number, albumID.<br> Note: albumID is type String because it mimics a serial-style number where leading zeros may be significant.  
+	<p>Album represents a Full-length Vinyl Record. An Album has a name and a unique album identification number</p>
+	
+	<p>albumName corresponds to the album's name; for example, "Boston." The albumName does not have to be unique. albumID corresponds to the album's unique identification number; for example, "01234." Note: albumID is type String because it mimics a serial-style number where leading zeros may be significant.</p>
+	
     @author P. Conrad
     @author Tom Craig, Sidney Rhoads
     @version UCSB, CS56, W14
 */
 public class Album
 {
-    private String albumID; // Unique ID number for the album: e.g. 123456789
+    private String albumID; // Unique ID number for the album: e.g. "123456789"
     // note: String because leading zeros may be significant
 
     private String albumName; // name of the Album, e.g "Boston"
 
     /**
        Two-arg constructor
-       @param id  ID number for the album: e.g. 123456789
+       @param id  ID number for the album: e.g. "123456789"
        @param name name of the Album, e.g "Boston"
     */
 
@@ -27,7 +30,7 @@ public class Album
 
     /**
 	Getter for albumID
-	@return albumID, ID number for the album: e.g. 123456789
+	@return albumID, ID number for the album: e.g. "123456789"
     */
 
     public String getAlbumID ()
