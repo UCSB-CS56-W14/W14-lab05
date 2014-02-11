@@ -65,4 +65,10 @@ public class Computer{
 	return (temp.getSerialNum().equals(this.getSerialNum()) & temp.getBrand().equals(this.getBrand()));
     }
 
+   /** main function */
+   public static void main(String [] args)
+	{
+		Computer apple = new Computer("KJHM55667","Apple");
+		System.out.println(apple);
+	}
 }
