@@ -1,3 +1,5 @@
+package edu.ucsb.cs56.w14.lab05.alanbuzdar;
+
 public class CreditCard {
 
     private String cardName; // name of the credit card company, e.g "Amex, Discover, Visa, etc"
@@ -14,6 +16,11 @@ public class CreditCard {
 	    this.lastFour = -1*lastFour;
 	else
 	    this.lastFour = lastFour;
+    }
+
+    public static void main(String[] args){
+	CreditCard x = new CreditCard("Visa", 4569);
+	System.out.println(x);
     }
 
     /** 

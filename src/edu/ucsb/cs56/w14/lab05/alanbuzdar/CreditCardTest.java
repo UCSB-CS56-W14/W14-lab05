@@ -1,3 +1,5 @@
+package edu.ucsb.cs56.w14.lab05.alanbuzdar;
+
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
