@@ -4,7 +4,7 @@ package edu.ucsb.cs56.w14.lab05.rtwaltman;
 
    @author P.Conrad
    @author Richard Waltman
-   @version UCSB, CS56, W14
+   @version 02/10/2014 Lab05, UCSB, CS56, W14
 */
 
 public class TriBike {
@@ -82,4 +82,11 @@ public class TriBike {
 	//   It will be "correct" half the time by accident.
     }
 
+	public static void main(String [] args)
+	{
+		TriBike t = new TriBike("Specialized SHIV", 54321);
+		System.out.println(t.toString());
+	}
 }
+
+

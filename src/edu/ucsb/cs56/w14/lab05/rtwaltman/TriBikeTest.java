@@ -11,9 +11,8 @@ import static org.junit.Assert.assertFalse;
 /** Test class for TriBike
 
     @author Phill Conrad
-    @author Insert your name here
-    @author If working in pair, insert 2nd pair here, else delete this line
-    @version 2014/01/30 for lab04, cs56, W14
+    @author Richard Waltman
+    @version 02/10/2014 for lab05, cs56, W14
     @see TriBike 
 
 */
