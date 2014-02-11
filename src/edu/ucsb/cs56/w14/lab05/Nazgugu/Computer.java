@@ -1,3 +1,5 @@
+package edu.ucsb.cs56.w14.lab05.Nazgugu;
+
 public class Computer{
     private String serialNum; // serial number associated with each computer, e.g. KJHM55667
     // note: String because it contains letters and numbers
