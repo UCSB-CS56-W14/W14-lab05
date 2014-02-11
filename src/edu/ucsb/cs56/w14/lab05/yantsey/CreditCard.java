@@ -81,4 +81,9 @@ public class CreditCard {
 	//   It will be "correct" half the time by accident.
     }
 
+    public static void main (String [] args) {
+	CreditCard x = new CreditCard("Master Card",1234);
+	System.out.println(x);
+    }
+
 }
