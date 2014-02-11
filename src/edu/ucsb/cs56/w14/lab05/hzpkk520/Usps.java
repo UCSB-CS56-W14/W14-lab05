@@ -4,9 +4,8 @@ package edu.ucsb.cs56.w14.lab05.hzpkk520;
 /** class Usps
 
     @author Phill Conrad
-    @author Yue Xin
     @author Ziping He
-    @version 2014/02/06 for lab04, cs56, W14
+    @version 2014/02/06 for lab05, cs56, W14
     @see Usps
 
 */
@@ -80,4 +79,11 @@ public class Usps {
        else
         return false;
     }
+
+    public static void main(String[] args){
+	Usps tmpU= new Usps("231011","Wilson");
+	System.out.println(tmpU.toString());
+
+    }
+
 }
