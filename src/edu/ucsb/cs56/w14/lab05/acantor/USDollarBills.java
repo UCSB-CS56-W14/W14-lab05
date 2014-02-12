@@ -5,7 +5,7 @@ package edu.ucsb.cs56.w14.lab05.acantor;
     USDollarBills is a class to represent a US dollar bill using the value and the name of the person on the bill
     @author Phill Conrad
     @author Antonio Cantor
-    @version 2014/02/11 for lab04, cs56, W14
+    @version 2014/02/12 for lab05, cs56, W14
 
 */
 

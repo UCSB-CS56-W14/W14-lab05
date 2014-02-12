@@ -10,7 +10,7 @@ import static org.junit.Assert.assertFalse;
 
     @author Phill Conrad
     @author Antonio Cantor
-    @version 2014/02/06 for lab04, cs56, W14
+    @version 2014/02/12 for lab05, cs56, W14
     @see USDollarBills 
 
 */
