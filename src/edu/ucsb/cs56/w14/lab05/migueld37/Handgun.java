@@ -58,7 +58,7 @@ public class Handgun {
 
 
     /** hashcode to be used for hash tables, etc.
-	based only on the upc value.
+	based only on the serialNumber value.
      */
 
     @Override
@@ -99,6 +99,11 @@ public class Handgun {
 	// Note: there is not good "always wrong" stub value for a boolean method
 	//   It will be "correct" half the time by accident.
     }
+
+	public static void main(String[] args) {
+		Handgun gun1 = new Handgun(123456, "Glock");
+		System.out.println("gun1=" + gun1.toString());
+		}
 }
 
 
