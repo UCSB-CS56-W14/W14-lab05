@@ -75,5 +75,13 @@ public class USDollarBills {
 	USDollarBills c = (USDollarBills) o;
 	return (c.getName() == this.getName());
     }
+	
+
+    public static void main (String[] args) {
+	
+	USDollarBills dollar = new USDollarBills("Thomas Jefferson",2);
+	System.out.println("dollar="+dollar);
+	
+	}
 
 }
