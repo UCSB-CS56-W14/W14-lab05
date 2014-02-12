@@ -79,8 +79,8 @@ public class USDollarBills {
 
     public static void main (String[] args) {
 	
-	USDollarBills dollar = new USDollarBills("Thomas Jefferson",2);
-	System.out.println("dollar="+dollar);
+	USDollarBills d = new USDollarBills("Thomas Jefferson",2);
+	System.out.println("d="+d);
 	
 	}
 
