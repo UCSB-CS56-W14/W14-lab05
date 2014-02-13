@@ -6,6 +6,12 @@ public class Watch {
 
     private String brand; // brand of the watch, e.g "Casio"
     
+    public static void main (String[] args) {
+        Watch w = new Watch("T2536", "Timex");
+
+        System.out.println("w = " + w);
+    }
+    
     /**
        Two-arg constructor
        @param model  type of watch e.g "T49905"
