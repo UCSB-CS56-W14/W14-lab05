@@ -84,6 +84,13 @@ public class Handgun {
 	// Note: there is not good "always wrong" stub value for a boolean method
 	//   It will be "correct" half the time by accident.
     }
+	public static void main(String []args)
+	{
+	int x=1000;
+	String gunName="Glock";
+	Handgun gun=new Handgun(x,gunName);
+	System.out.print(gun.toString());
+	}
 }
 
 
