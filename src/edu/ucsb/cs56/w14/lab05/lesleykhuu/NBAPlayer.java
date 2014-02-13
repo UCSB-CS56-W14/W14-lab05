@@ -84,5 +84,11 @@ public class NBAPlayer {
         NBAPlayer x = (NBAPlayer) o;
         return ( this.getJerseyNum() == (x.getJerseyNum()) && this.getName().equals(x.getName()));
     }
+    
+    public static void main(String [] args){
+        NBAPlayer player = new NBAPlayer(3,"Chris Paul");
+        System.out.println(player.toString());
+
+    }
 
 }
