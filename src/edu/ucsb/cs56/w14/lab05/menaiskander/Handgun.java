@@ -1,10 +1,11 @@
-package edu.ucsb.cs56.w14.lab05.menaiskander;
 /** 
 @author Phill Conrad
 @author @@@ Mena Iskander
 @author @@@ Miguel Delgado
-@version 02/07/2014 for lab04, cs56, W14
+@version 02/12/2014 for lab05, cs56, W14
 */
+package edu.ucsb.cs56.w14.lab05.menaiskander;
+
 public class Handgun {
     private int serialNumber; // serialNumber: the gun's serial number
     

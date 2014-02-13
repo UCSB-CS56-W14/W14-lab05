@@ -1,3 +1,12 @@
+/** Test class for Handgun
+
+    @author Phill Conrad
+    @author Miguel Delgado
+    @author Mena iskander
+    @version 2014/02/12 for lab05, cs56, W14
+    @see Handgun 
+
+*/
 package edu.ucsb.cs56.w14.lab05.menaiskander;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
@@ -5,15 +14,7 @@ import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.assertFalse;
 
 
-/** Test class for Handgun
 
-    @author Phill Conrad
-    @author Miguel Delgado
-    @author Mena iskander
-    @version 2014/01/30 for lab04, cs56, W14
-    @see Handgun 
-
-*/
 
 public class HandgunTest {
 
