@@ -68,5 +68,13 @@ public class Beverage {
         Beverage b = (Beverage) o;
         return (b.getBarcode() == this.getBarcode());
     }
-
+    
+    public static void main(String[] args) {
+	
+	Beverage b = new Beverage("Skyy Vodka","123456789");
+	String s = b.toString();
+	System.out.println("s=" + s);
+	
+    }
+    
 }
