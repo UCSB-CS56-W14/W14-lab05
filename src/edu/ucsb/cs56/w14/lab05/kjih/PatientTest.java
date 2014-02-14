@@ -31,7 +31,7 @@ public class PatientTest {
     }
 
 
-    /** Test case for getName method of Cereal
+    /** Test case for getName method of Patient
      @see Patient#getName
     */
 
@@ -42,7 +42,7 @@ public class PatientTest {
     }
 
     /** Test case for toString
-     @see Cereal#toString
+     @see Patient#toString
     */
 
     @Test
