@@ -73,4 +73,9 @@ public class CellPhone {
 		return (c.getCodeName() == this.getCodeName());
     }
 
+    public static void main(String [] args){
+	CellPhone cell = new CellPhone("hammerhead", "Nexus 5");
+	System.out.println(cell.toString());
+    }
+	
 }
