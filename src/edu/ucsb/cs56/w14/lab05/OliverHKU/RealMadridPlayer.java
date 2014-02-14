@@ -85,4 +85,9 @@ public class RealMadridPlayer {
 	return false;
     }
 
+    public static void main(String [] args){
+	RealMadridPlayer player1 = new RealMadridPlayer(99, "Oliver Li", "RMF");
+	System.out.println(player1.toString());
+    }
+
 }
