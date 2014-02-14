@@ -67,4 +67,12 @@ public class TennisPlayer {
    	return (c.getatpRank() == this.getatpRank());
     }
 
+    public static void main(String[] args) {
+	TennisPlayer x = new TennisPlayer(25,"Gael Monfils");
+	x.toString();
+	System.out.println(x);
+    }
+
 }
+
+    
