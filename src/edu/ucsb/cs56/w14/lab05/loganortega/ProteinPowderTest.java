@@ -9,7 +9,7 @@ import static org.junit.Assert.assertFalse;
     @author Phill Conrad
     @author Logan Ortega
     @author Richard Wang
-    @version 2014/01/30 for lab04, cs56, W14
+    @version 2014/02/14 for lab05, cs56, W14
     @see ProteinPowder 
 
 */

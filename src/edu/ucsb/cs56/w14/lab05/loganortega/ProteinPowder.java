@@ -1,4 +1,14 @@
 package edu.ucsb.cs56.w14.lab05.loganortega;
+
+/** ProteinPowder class implementation
+
+    @author Phill Conrad
+    @author Logan Ortega
+    @author Richard Wang
+    @version 2014/02/14 for lab05, cs56, W14
+    @see ProteinPowder 
+
+*/
 public class ProteinPowder {
     private String flavor; // describes flavor of powder, e.g. "chocolate"
 
@@ -79,6 +89,10 @@ public class ProteinPowder {
 	return (c.getSerialNumber() == this.getSerialNumber());
     }
 
+
+    /** exhibit the three-arg constructor and toString() method
+	@return void
+    */
     public static void main (String [] args) {
 	ProteinPowder p = new ProteinPowder(86028807, 30, "cookies and cream");
 	System.out.println("p=" + p.toString());
