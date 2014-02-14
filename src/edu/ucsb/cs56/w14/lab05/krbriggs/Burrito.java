@@ -82,4 +82,17 @@ public class Burrito {
 
     }
 
+
+    public static void main(String[] args) {
+
+
+	Burrito b = new Burrito(7, 15, "Taco Bell");
+
+	System.out.println(b.toString());
+
+
+    }
+
+
+
 }
