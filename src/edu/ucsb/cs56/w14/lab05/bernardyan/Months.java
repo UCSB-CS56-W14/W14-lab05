@@ -10,6 +10,7 @@ public class Months {
        @param number  numbers of the month, e.g. 5
        @param name name of the Month, e.g "May"
     */
+    
 
     public Months(int number,String name) {
 	this.Name = name;
@@ -80,6 +81,13 @@ public class Months {
 	// OR: return true;
 	// Note: there is not good "always wrong" stub value for a boolean method
 	//   It will be "correct" half the time by accident.
+    }
+
+    public static void main(String[] args){
+	Months testVar = new Months(4,"May");
+	System.out.println(""+testVar.toString());
+	//System.out.println("test");
+
     }
 
 }
