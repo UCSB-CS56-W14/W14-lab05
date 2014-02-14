@@ -1,3 +1,4 @@
+package edu.ucsb.cs56.w14.lab05.loganortega;
 public class ProteinPowder {
     private String flavor; // describes flavor of powder, e.g. "chocolate"
 
@@ -78,4 +79,8 @@ public class ProteinPowder {
 	return (c.getSerialNumber() == this.getSerialNumber());
     }
 
+    public static void main (String [] args) {
+	ProteinPowder p = new ProteinPowder(86028807, 30, "cookies and cream");
+	System.out.println("p=" + p.toString());
+    }
 }
