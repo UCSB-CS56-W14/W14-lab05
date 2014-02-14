@@ -1,5 +1,16 @@
 package edu.ucsb.cs56.w14.lab05.krbriggs;
 
+
+/** Class for Burrito
+
+    @author Phill Conrad
+    @author Kevin Briggs
+    @version 2014/02/13 for lab05, cs56, W14
+    @see Burrito 
+
+*/
+
+
 public class Burrito {
     private int length; //how long the burrito is in inches
     private int girth; //how girthy the burrito is in inches

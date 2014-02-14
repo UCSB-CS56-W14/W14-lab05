@@ -5,23 +5,19 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.assertFalse;
 
-// @@@ TODO: Change the items below per instructions.
-// @@@ TODO: Don't forget to change the "see" comment to refer to your class
-// @@@ TODO: Then delete these @@@ TODO lines.
 
-/** Test class for Cereal
+/** Test class for Burrito
 
     @author Phill Conrad
-    @author Chris Luo
     @author Kevin Briggs
-    @version 2014/02/07 for lab04, cs56, W14
+    @version 2014/02/13 for lab05, cs56, W14
     @see Burrito 
 
 */
 
 public class BurritoTest {
 
-    /** Test case for getLength method of Cereal
+    /** Test case for getLength method of  Burrito
      @see Burrito#getLength
     */
 
