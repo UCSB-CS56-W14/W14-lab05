@@ -5,6 +5,12 @@ public class Lego {
     private String name; // name of the Lego, e.g "Spaceship"
     int pieces;//number of pieces in this Lego set   
 
+
+	public static void main(String[] args){
+		Lego l = new Lego(460, "Castle");
+		System.out.println(l);
+	}	
+
     /**
        Two-arg constructor
        @param pieces  numbers of pieces, e.g. 88
