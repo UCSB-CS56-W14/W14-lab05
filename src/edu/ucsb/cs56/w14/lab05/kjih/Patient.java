@@ -74,4 +74,10 @@ public class Patient {
 	return (p.getSSN() == this.getSSN());
     }
 
+    public static void main(String [] args) {
+	Patient p = new Patient("123456789","Bob","flu");
+	String pstring = p.toString();
+	System.out.println("p=" + pstring);
+    }
+
 }
