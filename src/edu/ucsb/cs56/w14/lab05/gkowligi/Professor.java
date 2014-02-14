@@ -1,12 +1,12 @@
 package edu.ucsb.cs56.w14.lab05.gkowligi;
 public class Professor {
 
-    /*    public static void main{
+    public static void main(String[] args){
 
-	Professor p = new Professor(1234567, Economics);
+	Professor p = new Professor(1234567, "Economics");
 
-	System.out.println(p.toString());
-	}*/
+	System.out.println("p=" + p.toString());
+	}
 
     private double id; //ID: identification number, e.g. 1234567
     
