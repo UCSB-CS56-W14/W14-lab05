@@ -77,4 +77,9 @@ public class Shoe {
 	//   It will be "correct" half the time by accident.
     }
 
+   public static void main(String[] args) {
+	Shoe s = new Shoe("123456", "Nike");
+	System.out.println("s = " + s);
+   }
+
 }
