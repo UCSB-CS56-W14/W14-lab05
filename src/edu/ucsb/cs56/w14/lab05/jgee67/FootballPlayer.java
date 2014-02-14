@@ -73,4 +73,8 @@ public class FootballPlayer {
 	    return true;
     }
 
+    public static void main(String [] args){
+	FootballPlayer cringle = new FootballPlayer(69,"Cringle McDingleberry");
+	System.out.println(cringle.toString());
+    }
 }
