@@ -1,6 +1,12 @@
 package edu.ucsb.cs56.w14.lab05.yourgithubusername;
 
 public class Burrito {
+
+    public static void main (String[] args){
+	Burrito A = new Burrito(12,12,"Freebirds");
+	System.out.print(A);
+    }
+	
     private int length; //how long the burrito is in inches
     private int girth; //how girthy the burrito is in inches
     // note: String because leading zeros may be significant
