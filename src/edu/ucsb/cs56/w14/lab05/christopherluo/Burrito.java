@@ -1,10 +1,10 @@
-package edu.ucsb.cs56.w14.lab05.yourgithubusername;
+package edu.ucsb.cs56.w14.lab05.christopherluo;
 
 public class Burrito {
 
     public static void main (String[] args){
 	Burrito A = new Burrito(12,12,"Freebirds");
-	System.out.print(A);
+	System.out.println(A.toString());
     }
 	
     private int length; //how long the burrito is in inches

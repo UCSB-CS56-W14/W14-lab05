@@ -1,4 +1,4 @@
-package edu.ucsb.cs56.w14.lab05.yourgithubusername;
+package edu.ucsb.cs56.w14.lab05.christopherluo;
 
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
