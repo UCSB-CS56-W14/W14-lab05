@@ -85,4 +85,11 @@ public class Course {
 
     }
 
+    public static void main(String [] args){
+	Course m = new Course("1111111","cs57");
+	System.out.println(m.toString());
+    }
+
+
+
 }
