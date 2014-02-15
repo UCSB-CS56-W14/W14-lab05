@@ -84,7 +84,7 @@ public class Airport {
     public static void main(String[] args) {
 	Airport DIA = new Airport("Denver International Airport","Denver","DIA");
 	DIA.toString();
-	System.out.println(DIA.toString());
+	System.out.println(DIA);
     }
 
 }
